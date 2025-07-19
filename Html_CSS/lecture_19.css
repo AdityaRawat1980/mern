@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#img1{
+    height: 25em;
+    float: right;
+    margin: 10px;
+}
+#img2{
+    height: 25em;
+    float: right;
+    margin: 10px;
+    clear: right;
+}
+
+.box{
+    border: 2px solid black;
+    overflow: auto;
+    margin: 100px;
+}
+.iteam{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    background-color: cyan;
+    float: left;
+    border: 2px solid blueviolet;
+}
+.con{
+    border: 2px solid green;
+    width: 500px;
+    height: 500px;
+    overflow: auto ;
+    margin: 100px;
+}

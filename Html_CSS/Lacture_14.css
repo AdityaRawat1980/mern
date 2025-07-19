@@ -1,0 +1,22 @@
+p{
+    font-weight: 200;
+    font-family: "Edu QLD Hand", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+#para1{
+    background-color: yellow;
+}
+
+#para2{
+    background-color: rgb(56, 229, 215);
+}
+#pa3{
+    background-color: rgba(66,176,86,1); /*rgba it is used to define the opacity of color that is visibal */
+}
+#para4{
+    background-color: #00ccff;
+}
+#ppp{
+    background-color:hsl(299, 78%, 35%); /* in hue the color range is between 0 10 360 where different color is signifide at differentnumber like 0 is red 120 is grean 240 is blue */
+}

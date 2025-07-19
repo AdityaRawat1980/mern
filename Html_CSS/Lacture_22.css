@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary-colour:rgb(0, 0, 0); /*custom varibal creation in css */
+    --custon-width:400px;
+}
+img{
+    height: 200px;
+}
+.con{
+    background-color: #b16767;
+    margin: 10px;
+    height: 650px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: var(--primary-colour);
+    border: 2px solid black;
+    height: 350px;
+    width: var(--custon-width);
+    margin: 10px;
+    padding: 10px;
+    box-shadow: -20px -15px cyan; 
+    box-shadow: 10px 15px 50px cyan; 
+    box-shadow: 10px 15px 50px 20px cyan;
+    box-shadow:inset 10px 15px 50px 20px cyan;
+    box-shadow:inset 10px 15px 50px 20px cyan, 10px 15px 50px 20px rgb(29, 168, 47);
+    box-shadow:10px 15px 50px 20px cyan, 10px 15px 50px 20px rgb(104, 58, 203);
+
+}
+#h{
+    color: aliceblue;
+    padding: 20px;
+    text-shadow:rgb(252, 252, 252) 12px 10px 2px ;
+    text-shadow:  rgb(252, 252, 252) 10px 12px; 
+    text-shadow: 12px 13px;
+    text-shadow: 12px 10px 2px rgb(8, 204, 8),-12px -10px 3px rgb(255, 174, 0);
+}
+p{
+    text-shadow: 10px 10px 1px rgb(255, 255, 255);
+    color: aliceblue;
+}

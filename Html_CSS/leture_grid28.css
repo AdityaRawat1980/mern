@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+/* ////////////////////////example 2////////////////////////////// */
+.contener{
+height: 100%;
+width: 100%;
+background-color:rgb(39, 0, 167);
+display: grid;
+gap: 1rem;
+padding: 1rem;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: repeat(4,1fr);
+}
+.it{
+    height:100px ;
+    width: 100px ;
+    background-color: aqua;
+    border: 2px solid white;
+    /* justify-self: center ;
+    align-self: center; */
+    place-self: center;
+
+}

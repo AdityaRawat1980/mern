@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.contener{
+    background-color:beige;
+    padding: 4rem;
+    display: grid;;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+}
+.item{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    background-color:rgba(86, 28, 203, 0.148);
+}
+#Rotatex:hover{
+    transform: Rotatex(100deg);
+}
+#Rotatey:hover{
+    transform: Rotatey(-45deg);
+}#Rotatez:hover{
+    transform: Rotatez(45deg);
+}
+#trnslatex:hover{
+    transform: translateX(-100px);
+}
+#trnslatey:hover{
+    transform: translatey(100px);
+}
+#trnslatez:hover{
+    transform:perspective(200px) translatez(-100px);
+}
+#Scalex:hover{
+    transform: Scalex(1.5);
+}
+#Scaley:hover{
+    transform: Scaley(1.5);
+}
+#Scalez:hover{
+    transform:perspective(300px) Scalez(5) rotatey(30deg);
+}
+#skewx:hover{
+    transform: skewx(45deg);
+}
+#skewy:hover{
+    transform: skewy(120deg);
+}

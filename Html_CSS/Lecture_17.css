@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contener{
+    border: 2px solid black;
+    height: 2000px;
+}
+img{
+    margin: 5px;
+    height: 200px;
+}
+#imgar{
+    position: relative;
+    /* top: 100px; */
+    /* left: 100px; */
+}
+#complet_css{
+    position: fixed;
+    
+}
+/* #img3{
+    position: absolute;
+    top: 200px;
+} */
+ /* #img3{
+    position: fixed;
+    top: 200px;
+} */
+ #img3{
+    position: sticky;
+    top: 200px;
+}
+#box{
+    
+    border: 3px solid black;
+    width: 200px;
+    height: 2000px;
+    padding: 200px;
+    margin: 100px;
+}
